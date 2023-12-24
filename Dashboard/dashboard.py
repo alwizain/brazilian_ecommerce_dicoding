@@ -8,8 +8,8 @@ import seaborn as sns
 st.markdown("<h1 style='text-align: center;'>Brazilian E-Commerce Insights</h1>", unsafe_allow_html=True)
 
 # Membaca file dataset
-df_orderitems = pd.read_csv("..\Dashboard\orderitems.csv")
-df_orders = pd.read_csv("..\Dashboard\orders.csv")
+df_orderitems = pd.read_csv("orderitems.csv")
+df_orders = pd.read_csv("orders.csv")
 
 # VISUALISASI 1 #
 st.subheader("Perbandingan Penjualan Setiap Bulan pada Tahun 2017 dengan 2018")
